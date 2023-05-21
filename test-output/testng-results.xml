@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3810" started-at="2023-05-20T08:48:12Z" finished-at="2023-05-20T08:48:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerFile@60c6f5b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="3810" started-at="2023-05-20T08:48:12Z" finished-at="2023-05-20T08:48:16Z">
+      <class name="Runner.RunnerFile">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerFile@60c6f5b]" name="setUpClass" is-config="true" duration-ms="189" started-at="2023-05-20T14:18:12Z" finished-at="2023-05-20T14:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b46a8c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerFile@60c6f5b]" name="runScenario" duration-ms="3584" started-at="2023-05-20T14:18:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-20T14:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to TestLogin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Positive Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.RunnerFile@60c6f5b]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2023-05-20T14:18:16Z" finished-at="2023-05-20T14:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RunnerFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
