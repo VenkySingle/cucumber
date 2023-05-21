@@ -1,4 +1,4 @@
-Feature: Positive Login Functionality
+Feature: Positive Login Functionalityes
 
   Scenario: Login to TestLogins
     Given Launch Chrome Browser with "http://testphp.vulnweb.com/login.php"
