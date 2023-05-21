@@ -1,6 +1,6 @@
 Feature: Positive Login Functionality
 
-  Scenario: Login to TestLogin
+  Scenario: Login to TestLogins
     Given Launch Chrome Browser with "http://testphp.vulnweb.com/login.php"
     Then Verify Login Page is opened
     When Enter Username as "test"
